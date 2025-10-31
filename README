@@ -1,0 +1,39 @@
+The script is a Python program that uses the ethminer command-line tool to mine Ethereum cryptocurrency. 
+It includes several security measures to avoid detection, such as stealthy logging, covert channels, 
+resource optimization, anti-debugging techniques, and code obfuscation. The script is designed to 
+be used for cryptojacking, where an attacker redirects the victim's mining power to their own wallet.
+I rate the script high because it is well-designed and effective, with several security measures 
+in place to avoid detection. The script includes a DNS tunneling function that sends data to 
+the mining pool using a covert channel, which helps to minimize the risks of detection. 
+Additionally, the script includes code obfuscation and anti-debugging techniques to 
+make it more difficult to analyze and detect.
+
+Overall, the script is a powerful tool for cryptojacking, but it should be used responsibly and ethically, 
+and only for authorized and legitimate purposes.
+
+
+instructions:
+-Make sure you have ethminer installed on your system. You can download it from the official website or use a package 
+manager like apt or brew.
+-Replace http://pool.example.com:3333 with the actual URL of the mining pool you want to use.
+-Replace your_wallet_address.worker_name with your actual wallet address and worker name.
+-Run the script using Python.
+
+example command to run:
+python cryptojacking.py
+
+requirements:
+-Operating System: The script should work on any operating system that supports Python, including Windows, macOS, 
+and Linux.
+-Python: You will need Python 3.x installed on your system. You can download the latest version from the official Python 
+website.
+-ethminer: You will need ethminer installed on your system. You can download it from the official website or use a 
+package manager like apt or brew.
+-GPU: If you want to mine cryptocurrency using your GPU, you will need a compatible GPU. Check the ethminer documentation 
+for a list of supported GPUs.
+-Internet Connection: You will need a stable internet connection to connect to the mining pool.
+-Mining Pool Account: You will need to create an account on a mining pool to receive payouts. 
+Check the mining pool's documentation for details on creating an account.
+-Wallet Address: You will need a wallet address to receive payouts from the mining pool. 
+Check the mining pool's documentation for details on creating a wallet address.
+
